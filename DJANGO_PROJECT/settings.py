@@ -19,6 +19,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "crispy_forms",  # pip install django-crispy-forms
     "todo",
 ]
 
@@ -90,3 +91,4 @@ USE_TZ = True
 
 STATIC_URL = "/static/"
 
+CRISPY_TEMPLATE_PACK = "bootstrap4"
