@@ -1,0 +1,21 @@
+$ pip install django
+$ pip install django-crispy-forms
+
+$ cd to/manage.py/file
+
+$ python manage.py makemigrations
+$ python manage.py migrate
+$ python manage.py runserver
+
+Go to 127.0.0.1:8000
+It is client area.
+If user is logged in, then it will redirect to home page.
+Else if user is not logged in, then it will redirect to login page.
+
+Go to 127.0.0.1:8000/admin
+It is admin area.
+Admin can manage everything from here.
+Only super users and staff users can access admin area.
+Already created user:
+  username: admin
+  password: 1
